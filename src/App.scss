@@ -89,3 +89,144 @@ form{
     }
   }
 }
+
+
+
+// Responsive codes
+
+@media only screen and (max-width:702px){
+  .main{
+    h3{
+      font-size: 38px;
+    }
+    p{
+      font-size: 15px;
+      max-width: 600px;
+      margin: 1.2rem 0;
+    }
+  }
+
+
+  form{
+  
+    max-width: 520px;
+    margin: 1rem 0;  
+    padding: .1rem .4rem;
+    input{
+      height: 52px;
+      font-size: 16px;
+  
+    }
+    button{
+      padding: 1rem 2rem;
+      font-size: 15px;
+      height: 52px;
+      }
+    
+  }
+  
+}
+
+
+@media only screen and (max-width:608px){
+  .main{
+    h3{
+      font-size: 28px;
+    }
+    p{
+      font-size: 14px;
+      line-height: 22px;
+      max-width: 600px;
+      margin: 1rem 0;
+    }
+  }
+
+
+  form{
+  
+    max-width: 520px;
+    margin: .8rem 0;  
+    padding: .1rem .4rem;
+    input{
+      height: 50px;
+      font-size: 16px;
+  
+    }
+    button{
+      padding: .7rem 2rem;
+      font-size: 14px;
+      height: 52px;
+      }
+    
+  }
+  
+}
+
+
+@media only screen and (max-width:488px){
+  .main{
+    h3{
+      font-size: 23px;
+    }
+    p{
+      font-size: 12px;
+      line-height: 20px;
+      max-width: 600px;
+      margin: 1rem 0;
+    }
+  }
+
+
+  form{
+    max-width: 520px;
+    margin: .8rem 0;  
+    padding: .1rem .4rem;
+    input{
+      height: 48px;
+      font-size: 14px;
+      text-indent: 12px;
+  
+    }
+    button{
+      padding: .7rem 1.6rem;
+      font-size: 13px;
+      height: 48px;
+      }
+    
+  }
+  
+}
+
+
+@media only screen and (max-width:402px){
+  .main{
+    h3{
+      font-size: 23px;
+    }
+    p{
+      font-size: 11px;
+      line-height: 18px;
+      margin: 1rem 0;
+    }
+  }
+
+
+  form{
+    max-width: 520px;
+    margin: .8rem 0;  
+    padding: .1rem .4rem;
+    input{
+      height: 48px;
+      font-size: 13px;
+      text-indent: 12px;
+  
+    }
+    button{
+      padding: .7rem 1.2rem;
+      font-size: 12px;
+      height: 48px;
+      }
+    
+  }
+  
+}
